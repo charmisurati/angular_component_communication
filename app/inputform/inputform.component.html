@@ -1,0 +1,17 @@
+<form>
+    <div>
+        EmpName
+        <input type="text" #emp_name />
+    </div>
+    <div>
+        Empaddress
+        <input type="text" #emp_add />
+    </div>
+    <div>
+        Empmobile
+        <input type="number" #emp_mob />
+    </div>
+    <div>
+        <input type="button"  value="Insert" (click)="addemp(emp_name,emp_add,emp_mob)" />
+    </div>
+</form>
